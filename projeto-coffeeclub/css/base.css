@@ -1,0 +1,23 @@
+:root {
+    --marrom-principal: #4a2612;
+    --bege: #DAC2B1;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--bege);
+    background-color: var(--bege);
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
